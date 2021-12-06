@@ -1,6 +1,6 @@
 import time
 i = 0
-red = 0
+turn = 0
 moves = ["◴", "◷", "◶", "◵"]
 
 
@@ -18,4 +18,4 @@ while True:
     # roll(moves[red % 4], i)
     # spin(moves[red % 4])
     i += 1
-    red += 1
+    turn += 1
